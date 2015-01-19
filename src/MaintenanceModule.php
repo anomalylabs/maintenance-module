@@ -13,4 +13,11 @@ use Anomaly\Streams\Platform\Addon\Module\Module;
 class MaintenanceModule extends Module
 {
 
+    /**
+     * The navigation group.
+     *
+     * @var string
+     */
+    protected $navigation = 'streams::navigation.data';
+
 }
