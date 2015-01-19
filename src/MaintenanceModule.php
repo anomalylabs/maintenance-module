@@ -18,6 +18,6 @@ class MaintenanceModule extends Module
      *
      * @var string
      */
-    protected $navigation = 'streams::navigation.data';
+    protected $navigation = 'streams::navigation.system';
 
 }
